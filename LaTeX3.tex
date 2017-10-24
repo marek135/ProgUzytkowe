@@ -1,0 +1,50 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[MeX]{polski}
+
+%opening
+\title{}
+\author{}
+
+\begin{document}
+
+\maketitle Programy użytkowe - ćwiczenia 2
+
+\begin{abstract}
+\section{Formuły matematyczne w TeXu}
+Przetrenuj używanie w TeXu matematycznych formuł i symboli z rozdziału 1 po
+czym wykonaj polecenie z rozdziały 2
+\subsection{Zapis Matematyczny}
+\subsection{Tryb Matematyczny}
+Ułamek w tekście $ \frac{1}{x} $ \\
+Oto równanie $c^{2}=a^{2}+b^{2}$
+%wyeksponowany ułamek i równanie
+Ułamek $$ \frac{1}{x} $$ \\
+Oto równanie $$c^{2}=a^{2}+b^{2}$$
+Tryb matematyczny z użyciem struktury 'equation'
+Ułamek
+\begin{equation}
+\frac{1}{x}
+\label{eq:rownanie1}
+\end{equation}
+
+Oto równanie
+
+\begin{equation}
+c^{2}=a^{2}+b^{2}
+\label{eq:rownanie2}
+\end{equation}
+Można odnieść się do powyższych wzorów wykorzystująć polecenie ’eqref{etykieta}’.
+Ułamek ma numer (1) a równanie ma numer (2)
+Wiele wzorów w ramach jednego środowiska matematycznego, przy pomocy znaku
+’and’ możemy dokonać wyrównania równań 
+\begin{align}
+\label{eq:partialLW}
+\end{align}
+\end{abstract}
+
+\section{}
+
+\end{document}
